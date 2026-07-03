@@ -1,0 +1,45 @@
+/* Basketball theme — indoor court at night: dark gym, scoreboard glow,
+   hardwood orange. Numbers are the hero.
+   Token names follow the Momager Design System (tokens/colors.css). */
+:root {
+  /* Base surfaces + text */
+  --bg: #15171B;
+  --panel: #1F2229;
+  --panel-2: #262A33;
+  --text: #F2F3F5;
+  --muted: #9AA0AC;
+  --border: #2E323C;
+
+  /* Brand accent (matches app icon) */
+  --accent: #F2661E;
+  --accent-ink: #1A1005;
+  --accent-bright: #FF8A50; /* app-icon / logo-tile gradient top stop */
+
+  /* Stat semantics: made / miss / neutral / bad */
+  --made: #2E9E5B;
+  --made-ink: #EAF7EF;
+  --miss: #3A3F4B;
+  --miss-ink: #C8CDD8;
+  --bad: #7A3038;
+  --bad-ink: #F3D9DC;
+
+  /* Scoreboard signature */
+  --scoreboard-bg: #0C0E11;
+  --scoreboard-glow: rgba(242, 102, 30, .45);
+  --scoreboard-points: var(--accent);
+  --scoreboard-text: var(--text);
+  --scoreboard-muted: var(--muted);
+  --scoreboard-chip-bg: var(--panel-2);
+  --scoreboard-chip-text: var(--muted);
+  --scoreboard-chip-strong: var(--text);
+
+  /* Misc */
+  --danger-text: #D96A6A;
+  --radius: 14px;
+
+  /* Share-image palette (mirrors page palette) */
+  --share-bg: #15171B;
+  --share-panel: #1F2229;
+  --share-text: #F2F3F5;
+  --share-muted: #9AA0AC;
+}

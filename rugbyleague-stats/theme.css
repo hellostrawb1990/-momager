@@ -1,0 +1,45 @@
+/* Rugby League theme — Saturday morning at the park: bright light background
+   for readability in outdoor sun, field green + gold, chalk-line scoreboard.
+   Token names follow the Momager Design System (tokens/colors.css). */
+:root {
+  /* Base surfaces + text */
+  --bg: #F7F6F1;
+  --panel: #FFFFFF;
+  --panel-2: #ECEAE0;
+  --text: #1D2B22;
+  --muted: #6E7A70;
+  --border: #DDDACD;
+
+  /* Brand accent (matches app icon) */
+  --accent: #1F7A4D;
+  --accent-ink: #F3F8F4;
+  --accent-bright: #3AA06A; /* app-icon / logo-tile gradient top stop */
+
+  /* Stat semantics: made / miss / neutral / bad */
+  --made: #1B5E38;
+  --made-ink: #F3F8F4;
+  --miss: #D8D5C8;
+  --miss-ink: #4A5248;
+  --bad: #A8443C;
+  --bad-ink: #FBEFEE;
+
+  /* Scoreboard signature: dark green panel on light page, gold points */
+  --scoreboard-bg: #14311F;
+  --scoreboard-glow: rgba(224, 178, 66, .5);
+  --scoreboard-points: #E0B242;
+  --scoreboard-text: #F3F8F4;
+  --scoreboard-muted: #A9C4B1;
+  --scoreboard-chip-bg: rgba(255, 255, 255, .1);
+  --scoreboard-chip-text: #CFE0D5;
+  --scoreboard-chip-strong: #FFFFFF;
+
+  /* Misc */
+  --danger-text: #A8443C;
+  --radius: 14px;
+
+  /* Share-image palette (mirrors page palette) */
+  --share-bg: #F7F6F1;
+  --share-panel: #FFFFFF;
+  --share-text: #1D2B22;
+  --share-muted: #6E7A70;
+}

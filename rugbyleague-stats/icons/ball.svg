@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <g transform="rotate(-32 75 75)">
+    <path d="M13,75 Q28,37 75,37 Q122,37 137,75 Q122,113 75,113 Q28,113 13,75 Z" fill="#F4EDE4" stroke="#1F7A4D" stroke-width="6" stroke-linejoin="round"></path>
+    <path d="M13,75 Q30,48 75,48 Q120,48 137,75" stroke="#1F7A4D" stroke-width="4" fill="none" stroke-linecap="round"></path>
+    <path d="M13,75 Q30,102 75,102 Q120,102 137,75" stroke="#1F7A4D" stroke-width="4" fill="none" stroke-linecap="round"></path>
+    <line x1="55" y1="75" x2="95" y2="75" stroke="#1F7A4D" stroke-width="4" stroke-linecap="round"></line>
+    <line x1="62" y1="68" x2="62" y2="82" stroke="#1F7A4D" stroke-width="4" stroke-linecap="round"></line>
+    <line x1="75" y1="68" x2="75" y2="82" stroke="#1F7A4D" stroke-width="4" stroke-linecap="round"></line>
+    <line x1="88" y1="68" x2="88" y2="82" stroke="#1F7A4D" stroke-width="4" stroke-linecap="round"></line>
+  </g>
+</svg>
